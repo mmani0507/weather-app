@@ -8,7 +8,7 @@ window.addEventListener("load", () => {
       // console.log(long);
       // console.log(lat);
       const proxy = "https://cors-anywhere.herokuapp.com/";
-      const api = `${proxy}https://api.darksky.net/forecast/77a0818dd4b9b27da4b0d75b73e68fe5/${lat},${long}?lang=ta`;
+      const api = `https://api.darksky.net/forecast/77a0818dd4b9b27da4b0d75b73e68fe5/${lat},${long}?lang=ta`;
       const temperature_section=document.querySelector(".temprature");
       const temperatureSpan=document.querySelector(".temprature span");
       const icons=document.querySelector(".location p");
